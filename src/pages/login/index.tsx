@@ -11,7 +11,7 @@ export default function Login() {
 
   return (
     <LoginContainer>
-      <LoginCard className="col-sm-8 col-md-6 col-lg-4">
+      <LoginCard className="col-sm-10 col-md-8 col-lg-6">
         <div className="Icon">
           <Link to="/">
             <span className="material-icons">

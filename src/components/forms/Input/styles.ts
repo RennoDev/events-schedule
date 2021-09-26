@@ -9,7 +9,7 @@ export const Container = styled.div`
     font-weight: bold;
     text-align: center;
     font-size: 1.5rem;
-    color: ${theme.primaryColor};
+    color: #000;
   }
 
   input {

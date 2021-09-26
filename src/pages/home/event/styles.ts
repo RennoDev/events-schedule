@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import * as theme from '../../styles/theme'
+import * as theme from '../../../styles/theme'
 
-export const RegisterContainer = styled.div`
+export const EventContainer = styled.div`
 
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ export const RegisterContainer = styled.div`
   height: 100vh;
 `
 
-export const RegisterCard = styled.div`
+export const EventContent = styled.div`
 
   display: flex;
   flex-direction: column;
@@ -19,13 +19,11 @@ export const RegisterCard = styled.div`
   align-items: center;
   border-radius: 1rem;
   padding: 2rem;
-  margin: 4rem;
+  width: 30%;
   background-color: #fff;
   box-shadow: ${theme.boxShadow2};
 
   h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
     color: ${theme.primaryColor};
   }
 
@@ -50,6 +48,7 @@ export const RegisterCard = styled.div`
     justify-content: center;
     align-items: center;
     width: 80%;
+    margin-top: 2rem;
 
     >div+div {
       margin-top: 1rem;
@@ -61,6 +60,18 @@ export const RegisterCard = styled.div`
 
       &:hover {
         color: ${theme.primaryColor};
+        opacity: 0.6;
+      }
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: ${theme.primaryColor};
+
+      &:hover {
+        cursor: pointer;
         opacity: 0.6;
       }
     }
@@ -85,9 +96,5 @@ export const RegisterCard = styled.div`
         width: 35%;
       }
     }
-  }
-
-  @media(max-width: 576px) {
-    width: 70%;
   }
 `

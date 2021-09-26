@@ -37,7 +37,7 @@ export const LoginCard = styled.div`
       width: 30%;
       color: ${theme.primaryColor};
 
-      .material-icons {
+      material-icons {
         font-size: 30px;
         width: 100%;
       }

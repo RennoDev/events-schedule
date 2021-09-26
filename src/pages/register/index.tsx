@@ -11,7 +11,7 @@ export default function Register() {
 
   return (
     <RegisterContainer>
-      <RegisterCard className="col-sm-8 col-md-6 col-lg-4">
+      <RegisterCard className="col-sm-10 col-md-8 col-lg-6">
         <div className="Icon">
           <Link className="arrowIcon" to="/">
             <span className="material-icons">
