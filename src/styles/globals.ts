@@ -13,6 +13,7 @@ html,
 body,
 #root {
   height: 100%;
+  background-color: #f1d1ff !important;
 }
 
 html {
@@ -22,6 +23,14 @@ html {
     font-size: 54%;
   }
 }
+
+a {
+    text-decoration: none !important;
+  }
+
+li {
+    list-style-type: none;
+  }
 `
 
 export default GlobalStyle;
