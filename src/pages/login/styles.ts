@@ -66,7 +66,7 @@ export const LoginCard = styled.div`
     }
 
     button {
-      width: 30%;
+      width: 100%;
       margin-top: 1.5rem;
       padding: 1rem 2rem;
       border-radius: .5rem;
@@ -82,7 +82,7 @@ export const LoginCard = styled.div`
         transition: .2s;
         padding: 1.5rem 2.5rem;
         font-size: 2rem;
-        width: 35%;
+        width: 100%;
       }
     }
   }

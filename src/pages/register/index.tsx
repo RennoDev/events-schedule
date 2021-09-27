@@ -24,7 +24,7 @@ export default function Register() {
           <Input name="username" label="Usuário" />
           <Input name="password" label="Senha" type="password" />
           <Input name="password" label="Confirme sua Senha" type="password" />
-          <button type="submit">Registrar</button>
+          <Link to="/home"><button type="submit">Registrar</button></Link>
         </Form>
       </RegisterCard>
     </RegisterContainer>

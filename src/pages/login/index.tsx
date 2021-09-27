@@ -23,7 +23,7 @@ export default function Login() {
         <Form className="form" onSubmit={handleSubmit}>
           <Input name="username" label="Usuário" />
           <Input name="password" label="Senha" type="password" />
-          <button type="submit">Entrar</button>
+          <Link to="/home"><button type="submit">Entrar</button></Link>
         </Form>
       </LoginCard>
     </LoginContainer>
